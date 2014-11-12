@@ -63,7 +63,8 @@
 - (void)slideDown;
 - (void)slideUp;
 - (void)jumpToSelectedMonth;    // change months without animation (i.e. when directly switching to "Today")
-
+- (void)highlightWeekday:(KalDate*)date;
+- (void)willRotateToInterfaceOrientation:(UIInterfaceOrientation)toInterfaceOrientation duration:(NSTimeInterval)duration;
 @end
 
 #pragma mark -

@@ -21,6 +21,7 @@
 - (unsigned int)day;
 - (unsigned int)month;
 - (unsigned int)year;
+- (unsigned int)dayOfWeek;
 - (NSDate *)NSDate;
 - (NSComparisonResult)compare:(KalDate *)otherDate;
 - (BOOL)isToday;

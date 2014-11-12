@@ -51,7 +51,7 @@
 
 - (NSDateComponents *)cc_componentsForMonthDayAndYear
 {
-  return [[NSCalendar currentCalendar] components:NSYearCalendarUnit|NSMonthCalendarUnit|NSDayCalendarUnit fromDate:self];
+  return [[NSCalendar currentCalendar] components:NSYearCalendarUnit|NSMonthCalendarUnit|NSDayCalendarUnit|NSWeekdayCalendarUnit fromDate:self];
 }
 
 - (NSUInteger)cc_weekday

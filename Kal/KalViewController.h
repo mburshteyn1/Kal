@@ -34,8 +34,12 @@
 @property (nonatomic, assign) id<KalDataSource> dataSource;
 @property (nonatomic, retain, readonly) NSDate *selectedDate;
 
+@property int navigationBarHeight;
+@property int tabBarHeight;
+
 - (id)initWithSelectedDate:(NSDate *)selectedDate;  // designated initializer. When the calendar is first displayed to the user, the month that contains 'selectedDate' will be shown and the corresponding tile for 'selectedDate' will be automatically selected.
 - (void)reloadData;                                 // If you change the KalDataSource after the KalViewController has already been displayed to the user, you must call this method in order for the view to reflect the new data.
 - (void)showAndSelectDate:(NSDate *)date;           // Updates the state of the calendar to display the specified date's month and selects the tile for that date.
+- (id)initWithFrame:(CGRect)frame;
 
 @end

@@ -52,6 +52,10 @@ static KalDate *today;
 - (unsigned int)day { return a.day; }
 - (unsigned int)month { return a.month; }
 - (unsigned int)year { return a.year; }
+- (unsigned int)dayOfWeek {
+    NSDateComponents *parts = [self.NSDate cc_componentsForMonthDayAndYear];
+    return parts.weekday;
+ }
 
 - (NSDate *)NSDate
 {
