@@ -3,7 +3,7 @@ Kal
 
 A branch of the Kal Dictionary control updated with the iOS 7 layout
 
-![](https://www.flickr.com/photos/42069957@N08/15589922338/player/)
+<img src="https://cloud.githubusercontent.com/assets/3181568/5018279/0fccd656-6a83-11e4-8034-e45445e27722.png" width="300px"/>
 
 ###Usage:
 
